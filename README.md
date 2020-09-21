@@ -4,10 +4,14 @@ A very simple and fast reverse proxy for Nginx + Docker with custom JavaScript i
 
 ## 💻 Getting started
 
+To use with Caprover:
+
+Create a new app with the name "reverse-proxy" and add GitHub repository details. The [`captain-definition`](./captain-definition) file will take over from there.
+
 Use with Docker:
 
 ```bash
-docker run -p 1234:80 --env UPSTREAM_HTTP_ADDRESS='https://example.com' koj-co/reverse-proxy
+docker run -p 1234:80 --env UPSTREAM_HTTP_ADDRESS='https://example.com' kojhub/reverse-proxy
 ```
 
 Then, http://localhost:1234 will show you https://example.com.
