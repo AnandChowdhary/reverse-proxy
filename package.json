@@ -1,0 +1,23 @@
+{
+  "name": "reverse-proxy",
+  "version": "1.0.0",
+  "description": "A very simple and fast reverse proxy for Nginx + Docker with custom JavaScript injection. It's largely based on [caprover/nginx-reverse-proxy](https://github.com/caprover/nginx-reverse-proxy) with custom script injection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koj-co/reverse-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koj-co/reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/koj-co/reverse-proxy#readme",
+  "dependencies": {
+    "@koj/config": "^1.2.3"
+  }
+}
