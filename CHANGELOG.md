@@ -1,3 +1,8 @@
+# [v1.0.2](https://github.com/koj-co/reverse-proxy/compare/v1.0.1...v1.0.2) (2020-09-21)
+
+## ♻️ Updates
+- [`ba32f0d`](https://github.com/koj-co/reverse-proxy/commit/ba32f0d)  Remove sub_filter_types text/html
+
 # [v1.0.1](https://github.com/koj-co/reverse-proxy/compare/v1.0.0...v1.0.1) (2020-09-21)
 
 ## ♻️ Updates
